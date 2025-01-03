@@ -1,12 +1,15 @@
-import ProductTable from "./components/ProductTable";
+import React from "react";
+import PaymentForm from "./components/PaymentForm";
+import NavImage from "./component/Nav";
+import HomeImage from "./component/Home";
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <ProductTable/>
+    <div>
+      <NavImage/>
+      <HomeImage/>
     </div>
   );
-}
+};
 
 export default App;
